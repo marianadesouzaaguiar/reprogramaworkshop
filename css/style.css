@@ -1,0 +1,117 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+span {
+    font-weight: 700;
+    color:  #7E459B;
+}
+
+.container {
+    max-width: 1080px;
+    margin: 0 auto;
+}
+
+.botao > a,
+.midias-sociais__container-link {
+    text-decoration: none;
+    color: #7E459B;
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+}
+
+.botao {
+    margin-top: 8px;
+    background-color: white;
+    border: #7E459B solid 1px;
+    padding: 10px 25px 10px 25px;
+    border-radius: 50px;
+}
+
+.cabecalho {
+    text-align: center;
+    background-image: url(../css/gemma-chua-tran-jNVgCpQ0LhQ-unsplash.jpg);
+    background-size: auto;
+    width: 100%;
+    height: 600px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cabecalho__titulo {
+    font-size: 3rem;
+    color:#ec0e0e;
+    margin-bottom: 25px;
+}
+
+.cabecalho__texto {
+    font-size: 1.6rem;
+}
+
+.destaque {
+    font-size: 1.3rem;
+    margin-bottom: 15px;
+}
+
+.sobre-mim,
+.midias-sociais {
+    height: 450px;
+    display: flex;
+    align-items: center;
+}
+
+.display-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sobre-mim__titulo {
+    font-size: 3rem;
+    color: #C4C4C4;
+    margin-bottom: 55px;
+}
+
+
+.sobre-mim__descricao, 
+.sobre-mim__habilidades {
+    width: 40%;
+    line-height: 1.5;
+}
+
+.midias-sociais__container {
+    text-align: center;
+    width: 20%;
+    background-color: #7E459B;
+    padding: 15px;
+}
+
+.midias-sociais__container-img {
+    margin-bottom: 20px;
+}
+
+.midias-sociais__container-link,
+.midias-sociais__container-paragrafo {
+    color: white;
+}
+
+.midias-sociais__container-paragrafo {
+    margin-top: 10px;
+    font-size: 0.8rem; 	
+}
+
+.rodape__paragrafo {
+    text-align: center;
+    color: #868585;
+    margin-bottom: 30px;
+}
+
